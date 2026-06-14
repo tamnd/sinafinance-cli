@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	"github.com/charmbracelet/fang"
-	"github.com/tamnd/sinafinance-cli-cli/cli"
+	"github.com/tamnd/sinafinance-cli/cli"
 )
 
 func main() {
