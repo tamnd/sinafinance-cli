@@ -1,0 +1,10 @@
+title       = "sinafinance"
+baseURL     = "https://sinafinance-cli-cli.tamnd.com/"
+description = "Get stock quotes from Sina Finance"
+contentDir  = "content"
+outputDir   = "public"
+theme       = "tago-doks"
+syntaxHighlight = "true"
+
+[params]
+github = "https://github.com/tamnd/sinafinance-cli-cli"
