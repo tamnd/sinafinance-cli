@@ -23,8 +23,11 @@ import (
 // Host is the canonical hostname for Sina Finance.
 const Host = "finance.sina.com.cn"
 
-const suggestURL = "https://suggest3.sinajs.cn"
-const quoteURL = "https://hq.sinajs.cn"
+// DefaultSuggestURL is the Sina suggest endpoint.
+const DefaultSuggestURL = "https://suggest3.sinajs.cn"
+
+// DefaultQuoteURL is the Sina real-time quote endpoint.
+const DefaultQuoteURL = "https://hq.sinajs.cn"
 
 // DefaultUserAgent identifies the client to Sina Finance.
 const DefaultUserAgent = "sinafinance/dev (+https://github.com/tamnd/sinafinance-cli)"
@@ -42,8 +45,8 @@ type Config struct {
 // DefaultConfig returns sensible defaults.
 func DefaultConfig() Config {
 	return Config{
-		SuggestURL: "https://suggest3.sinajs.cn",
-		QuoteURL:   "https://hq.sinajs.cn",
+		SuggestURL: DefaultSuggestURL,
+		QuoteURL:   DefaultQuoteURL,
 		UserAgent:  DefaultUserAgent,
 		Rate:       200 * time.Millisecond,
 		Timeout:    30 * time.Second,
