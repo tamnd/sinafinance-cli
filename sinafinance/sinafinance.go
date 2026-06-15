@@ -20,6 +20,12 @@ import (
 	"time"
 )
 
+// Host is the canonical hostname for Sina Finance.
+const Host = "finance.sina.com.cn"
+
+const suggestURL = "https://suggest3.sinajs.cn"
+const quoteURL = "https://hq.sinajs.cn"
+
 // DefaultUserAgent identifies the client to Sina Finance.
 const DefaultUserAgent = "sinafinance/dev (+https://github.com/tamnd/sinafinance-cli)"
 
